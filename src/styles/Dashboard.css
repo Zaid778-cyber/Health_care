@@ -1,4 +1,3 @@
-/* === Base Layout === */
 .dashboard-container {
   min-height: 100vh;
   background: linear-gradient(135deg, #e3f2fd, #f3e5f5);
@@ -10,7 +9,6 @@
   color: #333;
 }
 
-/* === Upload Box === */
 .dashboard-box {
   background: white;
   border-radius: 18px;
@@ -59,7 +57,6 @@
   background: #e3f2fd;
 }
 
-/* === Preview === */
 .preview-wrapper {
   margin-top: 15px;
 }
@@ -80,7 +77,6 @@
   padding: 15px;
 }
 
-/* === Note Box === */
 .note-box {
   width: 100%;
   padding: 12px;
@@ -96,7 +92,6 @@
   box-shadow: 0 0 6px rgba(66, 165, 245, 0.4);
 }
 
-/* === Progress Bar === */
 .progress-bar-container {
   width: 100%;
   height: 12px;
@@ -121,7 +116,6 @@
   color: #333;
 }
 
-/* === Button === */
 .upload-btn {
   margin-top: 20px;
   padding: 12px 24px;
@@ -144,14 +138,12 @@
   cursor: not-allowed;
 }
 
-/* === Success Message === */
 .upload-success {
   margin-top: 10px;
   color: #2e7d32;
   font-weight: 500;
 }
 
-/* === Uploaded Section === */
 .uploads-section {
   margin-top: 60px;
   width: 100%;

@@ -67,9 +67,8 @@ export default function Dashboard() {
   };
 
   const handleLogout = () => {
-    // Example: clear local storage or session data if needed
-    // localStorage.removeItem("userToken");
-    navigate("/login"); // Redirect to login page
+   
+    navigate("/login"); 
   };
 
   return (

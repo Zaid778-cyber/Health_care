@@ -18,9 +18,8 @@ export default function RegisterForm() {
 
   const onSubmit = async (data) => {
     console.log('form data', data);
-    // No alert or toast — just simulate success silently
     reset();
-    navigate("/Dashboard"); // ✅ redirect to Dashboard
+    navigate("/Dashboard"); 
   };
 
   return (
