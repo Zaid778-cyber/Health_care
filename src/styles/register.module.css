@@ -1,0 +1,87 @@
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.form {
+  width: 100%;
+  max-width: 420px;
+  background: #ffffff;
+  border: 1px solid #e6e6e6;
+  padding: 1.6rem;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.04);
+}
+
+.title {
+  margin: 0 0 1rem 0;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.label {
+  display: block;
+  font-size: 0.9rem;
+  margin: 0.6rem 0 0.3rem;
+}
+
+.input,
+.select {
+  width: 100%;
+  padding: 0.55rem 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #dcdcdc;
+  font-size: 0.95rem;
+  box-sizing: border-box;
+}
+
+.passwordWrap {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.showBtn {
+  background: transparent;
+  border: none;
+  padding: 0 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.checkboxLabel {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.8rem;
+}
+
+.checkboxText {
+  font-size: 0.9rem;
+}
+
+.submit {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.65rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  background: linear-gradient(90deg, #2563eb, #7c3aed);
+  color: white;
+}
+
+.error {
+  color: #b91c1c;
+  font-size: 0.85rem;
+  margin-top: 0.25rem;
+}
+
+.small {
+  font-size: 0.85rem;
+  text-align: center;
+  margin-top: 0.9rem;
+}

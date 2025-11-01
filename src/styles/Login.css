@@ -1,0 +1,97 @@
+/* Background and layout */
+.login-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #2563eb, #1e3a8a);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Card */
+.login-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 40px;
+  width: 100%;
+  max-width: 380px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Title */
+.login-title {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 22px;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+/* Labels */
+.login-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #475569;
+}
+
+/* Inputs */
+.login-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 18px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s ease;
+}
+
+.login-input:focus {
+  border-color: #2563eb;
+}
+
+/* Button */
+.login-button {
+  width: 100%;
+  padding: 12px 0;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #1e40af;
+}
+
+/* Error message */
+.login-error {
+  color: #dc2626;
+  font-size: 13px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Register link */
+.register-text {
+  text-align: center;
+  font-size: 14px;
+  color: #475569;
+  margin-top: 15px;
+}
+
+.register-link {
+  color: #2563eb;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.register-link:hover {
+  text-decoration: underline;
+}

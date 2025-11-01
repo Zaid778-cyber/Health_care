@@ -1,0 +1,65 @@
+.health-container {
+   max-width: 800px;
+   margin: 40px auto;
+   padding: 20px;
+   background: #f7f9fc;
+   border-radius: 12px;
+   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+ }
+ 
+ .health-container h1 {
+   color: #2b5876;
+ }
+ 
+ .health-form {
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+   gap: 15px;
+ }
+ 
+ .input-row {
+   display: flex;
+   flex-direction: column;
+   gap: 6px;
+ }
+ 
+ .input-row input {
+   padding: 10px;
+   border-radius: 8px;
+   border: 1px solid #ccc;
+   font-size: 1rem;
+ }
+ 
+ .submit-btn {
+   background: linear-gradient(90deg, #2b5876, #4e4376);
+   color: white;
+   padding: 12px;
+   border: none;
+   border-radius: 8px;
+   cursor: pointer;
+   font-size: 1rem;
+   transition: 0.3s;
+ }
+ 
+ .submit-btn:hover {
+   background: linear-gradient(90deg, #4e4376, #2b5876);
+   transform: translateY(-2px);
+ }
+ 
+ .records-section {
+   margin-top: 30px;
+ }
+ 
+ .records-table {
+   width: 100%;
+   border-collapse: collapse;
+ }
+ 
+ .records-table th,
+ .records-table td {
+   border: 1px solid #ccc;
+   padding: 8px;
+   text-align: center;
+ }
+ 
